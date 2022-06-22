@@ -1,0 +1,52 @@
+header {
+  padding: 10px;
+  text-align: center;
+  background: #13293d;
+  color: #fff;
+}
+
+nav {
+  display: flex;
+  background-color: #d8a47f;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.overall {
+  display: flex;
+}
+
+a {
+  color: #13293d;
+  padding: 0 15px 0px 0px;
+  text-decoration: none;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+} 
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #13293d;
+  padding-left: 10px;
+}
+
+.left-column-mug {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+  
+}
+.maincontent {
+  display: flex;
+  flex: 3 0 80%;
+  
+}
+.mug {
+    width: 350px;
+} 
+
+.horse {
+  /* width:600px; */
+}
+
+
