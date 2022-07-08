@@ -18,7 +18,7 @@ line-height: 150%;
 }
 
 h2 {
-  font-size: 32px;
+  font-size: 26px;
   line-height: 150%;
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   font-weight: 900;
@@ -89,7 +89,7 @@ a {
 
 .left-column-mug {
     display: flex;
-    flex: 1;
+    flex: 30%;
     flex-direction: column;
     padding-left: 10px;
     margin-right: 10px;
@@ -97,11 +97,11 @@ a {
 }
 .maincontent {
   display: flex;
-  flex: 3 0 80%;
+  flex: 70%;
   
 }
 .mug {
-    width: 350px;
+    width: 100%;
 } 
 
 .horse {
@@ -125,11 +125,28 @@ a {
   background-color: antiquewhite;
 }
 
+@media only screen and (max-width: 1000px) {
+  body {
+    background-color: var(--sage);
+  }
+h2 {
+  font-size: 18px;
+}
+h3 {
+  font-size: 14px;
+}
+
+
 @media only screen and (max-width: 600px) {
   body {
     background-color: var(--mid_sage);
   }
-
+  h2 {
+    font-size: 30px;
+  }
+  h3 {
+    font-size: 22px;
+  }
 .overall {
   flex-wrap: wrap;
 }
