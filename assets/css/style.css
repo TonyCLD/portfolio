@@ -13,8 +13,8 @@
 
 
 p {
-font-size: 16x;
-line-height: 175%;
+font-size: 14px;
+line-height: 150%;
 }
 
 h2 {
@@ -108,6 +108,22 @@ a {
   /* width:600px; */
 }
 
+.undersection {
+  display: flex;
+}
+.openingart {
+  padding:20px 0 20px 0;
+}
+
+.firstSmallUnderDiv {
+  padding:20px;
+}
+
+.firstSmallUnderDiv1 {
+  display: flex;
+  padding:10px;
+  background-color: antiquewhite;
+}
 
 @media only screen and (max-width: 600px) {
   body {
@@ -117,3 +133,7 @@ a {
 .overall {
   flex-wrap: wrap;
 }
+.undersection {
+  display: inline;
+}
+
