@@ -1,7 +1,8 @@
 :root {
   --light_warm: rgb(233, 216, 164);
   --dark_warm: rgb(63, 29, 27);
-  --sage: rgb(193, 223, 225);
+  --ltsage: rgb(210, 235, 236);
+  --sage: rgb(174, 210, 207);
   --mid_sage: rgb(142, 182, 171);
   --dark_sage: rgb(52, 98, 74);
 }
@@ -58,6 +59,7 @@ nav {
   margin-bottom: 10px;
   overflow: visible;
   padding: 10px;
+  max-width: 1600px;
 }
 
 
@@ -68,7 +70,8 @@ nav {
 
 .overall {
   display: flex;
-
+  max-width: 1600px;
+  justify-content: center;
 
 }
 
@@ -110,6 +113,7 @@ a {
 
 .undersection {
   display: flex;
+  max-width: 1600px;
 }
 .openingart {
   padding:20px 0 20px 0;
@@ -127,7 +131,7 @@ a {
 
 @media only screen and (max-width: 1000px) {
   body {
-    background-color: var(--sage);
+    background-color: var(--ltsage);
   }
 h2 {
   font-size: 18px;
@@ -136,6 +140,29 @@ h3 {
   font-size: 14px;
 }
 
+@media only screen and (max-width: 890px) {
+  body {
+    background-color: var(--sage);
+  }
+h2 {
+  font-size: 18px;
+}
+h3 {
+  font-size: 14px;
+}
+.left-column-mug {
+  display: flex;
+  flex: 45%;
+  flex-direction: column;
+  padding-left: 10px;
+  margin-right: 10px;
+
+}
+.maincontent {
+display: flex;
+flex: 55%;
+
+}
 
 @media only screen and (max-width: 600px) {
   body {
