@@ -14,9 +14,22 @@
 
 
 p {
-font-size: 14px;
+font-size: 16px;
 line-height: 150%;
+
 }
+
+p2 {
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 100px;
+  font-size: 18px;
+  line-height: 175%;
+
+  }
+  
 
 h2 {
   font-size: 26px;
@@ -98,11 +111,31 @@ a {
     margin-right: 10px;
   
 }
+
 .maincontent {
   display: flex;
   flex: 70%;
   
 }
+
+.left-column-mug-page {
+  display: flex;
+  flex: 30%;
+  flex-direction: column;
+  padding-left: 10px;
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-left: 100px;
+}
+
+.right-column-main-page {
+  display: flex;
+  flex: 70%;
+  margin-right: 100px;
+  flex-direction: column;
+
+}
+
 .mug {
     width: 100%;
 } 
