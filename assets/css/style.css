@@ -140,9 +140,8 @@ a {
     width: 100%;
 } 
 
-.horse {
-  /* width:600px; */
-}
+/* .horse {
+  /* width:600px;} */
 
 .undersection {
   display: flex;
@@ -237,4 +236,4 @@ flex: 45%;
 .firstSmallUnderDivlast {
   padding:20px;
   display: block;
-}
+}}}}
